@@ -3,7 +3,7 @@
 # How to build
 ## Sync twrp-12.1
     repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1; repo sync
-## Clone Galaxy A35 Tree
+## Clone Galaxy gts10litewifi Tree
     git clone https://github.com/teamwin/android_device_samsung_gts10litewifi.git -b android-12.1 device/samsung/gts10litewifi
 ## Build
     export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_gts10litewifi-eng; mka recoveryimage
